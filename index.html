@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>给陆昌圣的告白</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+            background: #000000;
+            color: #ffffff;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        .bg-gradient {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: radial-gradient(ellipse at top, rgba(236, 72, 153, 0.2) 0%, transparent 50%),
+                        radial-gradient(ellipse at bottom right, rgba(244, 63, 94, 0.15) 0%, transparent 50%),
+                        #000000;
+            z-index: -1;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            border-bottom: 1px solid #333333;
+        }
+        nav .logo { font-size: 20px; font-weight: 700; }
+        nav .logo span { color: #f43f5e; }
+        main { max-width: 800px; margin: 0 auto; padding: 60px 20px; }
+        .hero { text-align: center; padding: 40px 0 60px; }
+        .hero h1 {
+            font-size: 48px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            background: linear-gradient(135deg, #f43f5e 0%, #fb7185 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .hero .subtitle { font-size: 20px; color: #f43f5e; }
+        .audio-card {
+            background: linear-gradient(180deg, #1a1a1a 0%, #0a0a0a 100%);
+            border: 1px solid #333333;
+            border-radius: 16px;
+            padding: 32px;
+            margin: 40px 0;
+        }
+        .audio-card h2 {
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #8e8e8e;
+            margin-bottom: 20px;
+        }
+        audio { width: 100%; height: 48px; border-radius: 24px; }
+        .content {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid #333333;
+            border-radius: 16px;
+            padding: 40px;
+            margin-top: 40px;
+        }
+        .content h2 { font-size: 24px; margin-bottom: 24px; text-align: center; }
+        .content p {
+            font-size: 16px;
+            color: #d1d5db;
+            margin-bottom: 20px;
+            text-align: center;
+            line-height: 2;
+        }
+        .heart {
+            text-align: center;
+            font-size: 48px;
+            margin: 20px 0;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        footer {
+            text-align: center;
+            padding: 40px;
+            color: #8e8e8e;
+            font-size: 14px;
+            border-top: 1px solid #333333;
+            margin-top: 60px;
+        }
+        @media (max-width: 768px) {
+            .hero h1 { font-size: 32px; }
+            .content { padding: 24px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="bg-gradient"></div>
+    <nav>
+        <div class="logo">❤️ <span>Love</span></div>
+    </nav>
+    <main>
+        <div class="hero">
+            <h1>给陆昌圣</h1>
+            <p class="subtitle">一段真挚的告白</p>
+        </div>
+        <div class="heart">💕</div>
+        <div class="audio-card">
+            <h2>🎧 播放音频</h2>
+            <audio controls>
+                <source src="https://deployai365-deploy-1329062606.cos.ap-guangzhou.myqcloud.com/uploads/1773768457_love_podcast.mp3" type="audio/mpeg">
+            </audio>
+        </div>
+        <div class="content">
+            <h2>💌 告白内容</h2>
+            <p>亲爱的陆昌圣，今天我想对你说一些心里话。</p>
+            <p>从第一次见到你的那一刻起，我就被你深深吸引。你的笑容，你的眼神，你的一举一动，都让我感到无比心动。</p>
+            <p>我想告诉你，我喜欢你。不是普通的朋友喜欢，而是那种想要陪伴你一生一世的喜欢。</p>
+            <p>我喜欢你认真工作时的样子，喜欢你温柔说话时的声音，喜欢你偶尔发呆的可爱表情。你的每一个细节，都让我着迷。</p>
+            <p>陆昌圣，你愿意让我成为那个陪伴你的人吗？我想和你一起看日出日落，一起走过四季更替，一起经历人生的风风雨雨。</p>
+            <p>我会用我的全部真心去爱你，珍惜你，呵护你。你是我的唯一，我的心永远属于你。</p>
+            <p>陆昌圣，我爱你。这句话虽然简单，却是我最真挚的情感表达。希望有一天，我能当面对你说出这些话。</p>
+        </div>
+        <div class="heart">💖</div>
+    </main>
+    <footer>
+        <p>🎵 语音由 AI 克隆技术生成</p>
+    </footer>
+</body>
+</html>
